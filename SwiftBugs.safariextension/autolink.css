@@ -1,0 +1,7 @@
+a.swift-autolink {
+  background-image: url('swift.png');
+  background-size: cover;
+  width: 0.8em;
+  height: 0.8em;
+  display: inline-block;
+}

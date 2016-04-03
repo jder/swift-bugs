@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Jesse Rusak</string>
+	<key>Builder Version</key>
+	<string>11601.5.17.1</string>
+	<key>CFBundleDisplayName</key>
+	<string>SwiftBugs</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.jesserusak.SwiftBugs</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Content</key>
+	<dict>
+		<key>Blacklist</key>
+		<array>
+			<string>https://bugs.swift.org/*</string>
+		</array>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>findAndReplaceDOMText.js</string>
+				<string>autolink.js</string>
+			</array>
+		</dict>
+		<key>Stylesheets</key>
+		<array>
+			<string>autolink.css</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Auto-links SR-XXXX to bugs.swift.org</string>
+	<key>DeveloperIdentifier</key>
+	<string>MZ6TK9285W</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
